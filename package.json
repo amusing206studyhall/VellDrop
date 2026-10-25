@@ -1,0 +1,40 @@
+{
+  "name": "veildrop",
+  "version": "1.1.0-beta.1",
+  "private": false,
+  "description": "VeilDrop — privacy-first encrypted file sharing with optional image carriers.",
+  "author": "Md Taufiqur Rahman",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build --webpack",
+    "start": "next start",
+    "typecheck": "tsc --noEmit",
+    "db:init": "node scripts/db-init.mjs",
+    "test": "node --import tsx --test tests/*.test.ts"
+  },
+  "dependencies": {
+    "@paddle/paddle-js": "^1.6.5",
+    "@paddle/paddle-node-sdk": "^3.10.0",
+    "@serenity-kit/opaque": "^1.1.0",
+    "@supabase/ssr": "^0.8.0",
+    "@supabase/supabase-js": "^2.0.0",
+    "next": "16.4.2",
+    "pg": "^8.16.0",
+    "react": "19.2.0",
+    "react-dom": "19.2.0"
+  },
+  "devDependencies": {
+    "@electric-sql/pglite": "^0.5.11",
+    "@types/node": "^22.0.0",
+    "@types/pg": "^8.15.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "prettier": "^3.9.10",
+    "tsx": "^4.19.2",
+    "typescript": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=22.0.0"
+  }
+}
