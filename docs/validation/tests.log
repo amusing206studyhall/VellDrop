@@ -1,0 +1,24 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> veildrop@1.1.0-beta.1 test
+> node --import tsx --test tests/*.test.ts
+
+✔ png carrier round trip (1.880064ms)
+✔ webp carrier round trip (0.571273ms)
+✔ jpeg carrier round trip (0.480239ms)
+✔ password encryption preserves binary content and Unicode filename (199.486479ms)
+✔ wrong password and altered ciphertext are rejected (267.186309ms)
+✔ salt and nonce vary for repeated encryption (172.054529ms)
+✔ malformed payload header is rejected (0.377327ms)
+✔ OPAQUE registration/login export key decrypts the actual wrapped document key (793.979861ms)
+✔ schema denies browser access and permits revocation without NOT NULL failure (1898.022216ms)
+✔ unknown or missing prices never grant paid access (1.020966ms)
+✔ policy constants are sane (11.491202ms)
+ℹ tests 11
+ℹ suites 0
+ℹ pass 11
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 2287.877768

@@ -1,0 +1,66 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> veildrop@1.1.0-beta.1 build
+> next build --webpack
+
+▲ Next.js 16.4.2 (webpack)
+✓ Running next.config.ts took 26ms
+Attention: Next.js now collects completely anonymous telemetry regarding usage.
+This information is used to shape Next.js' roadmap and prioritize features.
+You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:
+https://nextjs.org/telemetry
+
+
+  Creating an optimized production build ...
+✓ Compiled successfully in 5.1s
+  Running TypeScript ...
+  Finished TypeScript in 2.4s ...
+  Collecting page data using 8 workers ...
+  Generating static pages using 8 workers (0/28) ...
+  Generating static pages using 8 workers (7/28) 
+  Generating static pages using 8 workers (14/28) 
+  Generating static pages using 8 workers (21/28) 
+✓ Generating static pages using 8 workers (28/28) in 353ms
+  Finalizing page optimization ...
+  Collecting build traces ...
+
+Route (app)
+┌ ƒ /
+├ ƒ /_not-found
+├ ƒ /api/account/revoke
+├ ƒ /api/account/signout
+├ ƒ /api/billing/checkout
+├ ƒ /api/billing/portal
+├ ƒ /api/health
+├ ƒ /api/maintenance
+├ ƒ /api/paddle/webhook
+├ ƒ /api/share/create
+├ ƒ /api/share/login/finish
+├ ƒ /api/share/login/start
+├ ƒ /api/share/register/start
+├ ƒ /api/share/revoke
+├ ƒ /api/share/status
+├ ƒ /auth/callback
+├ ƒ /billing/success
+├ ƒ /contact
+├ ƒ /dashboard
+├ ƒ /help
+├ ƒ /legal/privacy
+├ ƒ /legal/refunds
+├ ƒ /legal/terms
+├ ƒ /login
+├ ƒ /pricing
+├ ○ /robots.txt
+├ ƒ /secure-share
+├ ƒ /secure-share/[id]
+├ ƒ /secure-share/manage/[id]
+├ ƒ /security
+├ ○ /sitemap.xml
+└ ƒ /studio
+
+
+ƒ Proxy (Middleware)
+
+○  (Static)   prerendered as static content
+ƒ  (Dynamic)  server-rendered on demand
+

@@ -1,0 +1,1 @@
+Read START-HERE.md and CLAUDE_HANDOFF.md. This is the Supabase deployment beta. Live payment and online-sharing configuration require your own accounts.
